@@ -74,4 +74,5 @@ while not user == 9:
     user = int(input("[1]Rock   [2]Paper   [3]Scissors   [9]Quit\n"))
 
 #game over, save results
+print("You ROCK! Let's WRAP this up! We'll CUT to the chase next time!")
 save_results(wins, ties, losses)
